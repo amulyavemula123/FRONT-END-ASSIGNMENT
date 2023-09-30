@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Title</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <ul id="options">
+                <li><label><input type="radio" name="answer" value="A"> Option A</label></li>
+                <li><label><input type="radio" name="answer" value="B"> Option B</label></li>
+                <li><label><input type="radio" name="answer" value="C"> Option C</label></li>
+                <li><label><input type="radio" name="answer" value="D"> Option D</label></li>
+            </ul>
+        </div>
+        <button id="submit-button">Submit</button>
+        <p id="feedback"></p>
+        <p id="score">Score: 0</p>
+        <button id="next-button" style="display: none;">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
